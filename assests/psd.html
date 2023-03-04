@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mainpsd</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        .head {
+            background-color: black;
+            height: 50px;
+
+        }
+
+        li {
+            color: azure;
+            margin-top: 10px;
+            margin-right: 40px;
+        }
+
+        /* .text-box {         
+             width: 90%;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        } */
+        /* #text {
+            position: relative;
+            width: 100%;
+            
+        }
+
+        #p1 {
+            position:absolute
+        }
+
+
+        #img2 {
+           position:absolute;
+        }
+        #logo{
+            background-color: black;
+            position: absolute;
+            top: 80px;
+            
+            }
+        #h1{
+          position:relative;
+
+        } */
+        .relative img {
+            width: 100%;
+            position: relative;
+        }
+
+        .absolute img {
+            position: absolute;
+            top: 150px;
+            margin-left: 68px;
+            width: 150px;
+        }
+
+        .absolute h1 {
+            position: absolute;
+            top: 210px;
+            margin-left: 68px;
+        }
+
+        .absolute #img2 {
+            position: absolute;
+            top: 320px;
+        }
+
+        .absolute #p1 {
+            position: absolute;
+            top: 380px;
+            margin-left: 68px;
+            color: #fff;
+        }
+
+        .absolute a {
+            position: absolute;
+            top: 485px;
+            margin-left: 68px;
+            padding: 9px 30px 9px;
+            border-color: azure;
+        }
+
+        .absolute h2 {
+            position: absolute;
+            top: 650px;
+            font-size: 20px;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Open Sans";
+        }
+
+        .absolute #p2 {
+            position: absolute;
+            top: 700px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #86878b;
+            font-weight: 400;
+            font-family: "Open Sans";
+        }
+
+        .absolute h2 #p2 {
+            width: 1400px;
+            height: 105px;
+            filter: drop-shadow(0px 1px 1.5px rgba(0, 0, 0, 0.38));
+            background-color: #ffffff;
+        }
+        .absolute i{
+            position: absolute;
+            top: 700px;
+            padding: 5px;
+        }
+
+        .text-box h1 {
+
+            font-size: 36px;
+            color: #ffffff;
+            font-family: "Raleway";
+        }
+
+        .text-box img {
+
+            padding: 20px;
+        }
+
+        .text-box p {
+
+            opacity: 0.800;
+            font-size: 16px;
+            line-height: 23px;
+            color: #ffffff;
+            font-weight: 300;
+            font-family: "Raleway";
+        }
+
+        .hero-btn {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid #fff;
+            font-size: 13px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="head">
+        <img style="float: left;margin-top: 10px;margin-left: 70px;" src="\assests\Logo.png">
+        <ul id="navbar" style="margin-right: 50px;" class="navbar justify-content-end">
+            <li class="nav-item">
+                Features
+            </li>
+            <li class="nav-item">
+                About
+            </li>
+            <li class="nav-item">
+                Pricing
+            </li>
+            <li class="nav-item">
+                Reviews
+            </li>
+            <li class="nav-item">
+                Contacts
+            </li>
+        </ul>
+    </div>
+    <div class="relative">
+        <img id="text" src="./image (1).png">
+    </div>
+    <div class="absolute">
+        <img id="logo" src="./Logo.png">
+        <h1 id="h1">MODULAR AXTURE TEMPLATE<br> FOR BEAUTIFUL TEMPLATES</h1>
+        <img id="img2" src="\assests\divider_white_u72.png">
+        <p id="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            temporibus molestiae <br>maiores odit assumenda
+            ad, quam magnam autem veniam libero nulla perspiciatis<br> necessitatibus excepturi ex facilis suscipitiste,
+            dignissimos et!</p>
+        <a href="" class=hero-btn>DOWNLOAD</a>
+
+        <h2 id="h2">Social Media</h1>
+            <p id="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Debitis
+                temporibus molestiae</p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+
+                <i class="fa fa-wifi" aria-hidden="true"></i>
+
+    </div>
+
+
+
+</body>
+
+</html>
