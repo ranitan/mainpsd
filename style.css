@@ -219,7 +219,7 @@ hr {
   line-height: 43px;
   color: #212121;
   font-weight: 700;
-  font-family: "Open Sans"; 
+  font-family: "Open Sans";
   padding-left: 20px;
 }
 
@@ -294,14 +294,194 @@ hr {
 }
 
 .pg6 {
-  height: 700px;
+  height: 1000px;
   background-color: #f5f5f5;
+  width: 100%;
 }
 
-.pg6 #pg {
+.pg6 #a1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  background-color: black;
+  border-style: ridge;
+  padding: 15px;
+}
+
+.pg6 #a2 {
+  font-size: 35px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+  background-color: black;
+  border-style: ridge;
+  padding: 30px;
+}
+
+.pg6 #a3 {
+
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+  background-color: black;
+}
+
+.pg6 #a4 {
+  background-color: orange;
+  padding: 5px;
+  list-style: none;
+}
+
+.pg6 #a5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  list-style: none;
+  padding: -5px;
+  background-color: white;
+
+}
+
+.pg6 #a5 li {
+  color: #86878b;
+}
+
+.pg6 #b1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  background-color: black;
+  border-style: ridge;
+  padding: 15px;
+  list-style: none;
+}
+
+.pg6 #b2 {
+  font-size: 35px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+  background-color: black;
+  border-style: ridge;
   padding: 50px;
-  height: 500px;
-  margin-right: 50px;
+  list-style: none;
+}
+
+.pg6 #b3 {
+
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+  background-color: black;
+  list-style: none;
+}
+
+.pg6 #b4 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  list-style: none;
+  background-color: orange;
+  padding: 15px;
+
+}
+
+.pg6 #b5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  list-style: none;
+  padding: -5px;
+  background-color: white;
+}
+
+.pg6 #b5 li {
+  color: #86878b;
+}
+
+.pg6 #c1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  background-color: black;
+  border-style: ridge;
+  padding: 15px;
+}
+
+.pg6 #c2 {
+  font-size: 35px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+  background-color: black;
+  border-style: ridge;
+  padding: 30px;
+}
+
+.pg6 #c3 {
+
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+  background-color: black;
+}
+
+.pg6 #c4 {
+  background-color: orange;
+  padding: 5px;
+  list-style: none;
+}
+
+.pg6 #c5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  list-style: none;
+  padding: -5px;
+  background-color: white;
+}
+
+.pg6 #c5 li {
+  color: #86878b;
 }
 
 /*page7*/
@@ -365,14 +545,14 @@ hr {
 }
 
 .pg8 {
-  width: 1400px;
+  width: 100%;
   height: 320px;
   background-color: #000000;
 }
 
 /*page9*/
 .pg9 {
-  width: 1400px;
+  width: 100%;
   height: 550px;
   background-color: #ffffff;
 }
@@ -408,7 +588,7 @@ hr {
 
 .pg9 hr {
   filter: drop-shadow(0px 1px 0px rgba(0, 0, 1, 0.16));
-  width: 250px;
+  width: 500px;
 }
 
 /*footer*/

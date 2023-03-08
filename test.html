@@ -12,308 +12,318 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <style>
+        #s {
+            border-style: groove;
+
+        }
+
+        #l1 {
+            font-size: 20px;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Open Sans";
+            text-align: center;
+            list-style-type: none;
+        }
+
+        #l3 {
+            font-size: 15px;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: orange;
+            padding: 10px;
+        }
+
+        #l2 {
+            font-size: 14px;
+            color: #bdbdbd;
+            font-weight: 400;
+            font-family: "Open Sans";
+            text-align: center;
+            margin-right: 200px;
+            list-style-type: none;
+            margin-bottom: 5px;
+            margin-top: 20px;
+
+        }
+
+        hr {
+            filter: drop-shadow(0px 1px 0px rgba(0, 0, 1, 0.16));
+            padding-left: 25px;
+        }
+
+        #a1 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: black;
+            border-style: ridge;
+            padding: 15px;
+        }
+
+        #a2 {
+            font-size: 35px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Raleway";
+            text-align: center;
+            background-color: black;
+            border-style: ridge;
+            padding: 30px;
+        }
+
+        #a3 {
+
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: black;
+        }
+
+        #a4 {
+            background-color: orange;
+            padding: 5px;
+            list-style: none;
+        }
+
+        #a5 {
+            font-size: 14px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #86878b;
+            font-weight: 400;
+            font-family: "Open Sans";
+            text-align: center;
+            list-style: none;
+            padding: -5px;
+        }
+
+        #b1 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: black;
+            border-style: ridge;
+            padding: 15px;
+            list-style: none;
+        }
+
+        #b2 {
+            font-size: 35px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Raleway";
+            text-align: center;
+            background-color: black;
+            border-style: ridge;
+            padding: 50px;
+            list-style: none;
+        }
+
+        #b3 {
+
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: black;
+            list-style: none;
+        }
+
+        #b4 {
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Open Sans";
+            text-align: center;
+            list-style: none;
+            background-color: orange;
+            padding:15px;
+
+        }
+
+        #b5 {
+            font-size: 14px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #86878b;
+            font-weight: 400;
+            font-family: "Open Sans";
+            text-align: center;
+            list-style: none;
+            padding: -5px;
+        }
+        #c1 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: black;
+            border-style: ridge;
+            padding: 15px;
+        }
+
+        #c2 {
+            font-size: 35px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Raleway";
+            text-align: center;
+            background-color: black;
+            border-style: ridge;
+            padding: 30px;
+        }
+
+        #c3 {
+
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: black;
+        }
+
+        #c4 {
+            background-color: orange;
+            padding: 5px;
+            list-style: none;
+        }
+
+        #c5 {
+           /* font-size: 14px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #86878b;
+            font-weight: 400;
+            font-family: "Open Sans";
+            text-align: center;
+            list-style: none;
+            padding: -5px;*/
+            color: #86878b;
+            text-align: center; font-size: 14px; font-family: "Open Sans";  list-style: none;
+        }
+        .pg6{
+            background-color: #86878b;
+        }
+        
+    </style>
 
 </head>
 
 <body>
 
-    <!--navbar-->
-    <div class="head">
-        <img style="float: left;margin-top: 10px;margin-left: 70px;" src="Logo.png">
-        <ul id="navbar" style="margin-right: 50px;" class="navbar justify-content-end">
-            <li class="nav-item">
-                Features
-            </li>
-            <li class="nav-item">
-                About
-            </li>
-            <li class="nav-item">
-                Pricing
-            </li>
-            <li class="nav-item">
-                Reviews
-            </li>
-            <li class="nav-item">
-                Contacts
-            </li>
+
+    <!--<div class="absolutes" style="height: 350px;width: 350px;width: 18rem;margin-left: 900px;">
+        <ul class="list-group list-group-flush">
+            <li id="l1">Try Your Free Trail Today</li>
+            <li id="l2">Name</li>
+            <hr>
+            <li id="l2">Email</li>
+            <hr>
+            <li id="l2">Password</li>
+            <hr>
+            <li id="l3">Get Started</li>
+        </ul>
+    </div>-->
+
+    <div class="pg6" style="display: flex;padding: 3px;margin-left: 100px;">
+        <div style="height: 250px;width:400px;margin-top: 80px;">
+            <ul class="list-style:none">
+                <li id="a1">Basic</li>
+                <li id="a2"><img src="./assests/$0.png"></li>
+                <li id="a3">Free for life</li>
+                <li id="a4"></li>
+                <div id="a5">
+                    <li>1GB OF SPACE</li>
+                    <hr>
+                    <li>1GB OF BANDWIDTH</li>
+                    <hr>
+                    <li>3 WEBSITES</li>
+                    <hr>
+                    <li>BASIC CUSTOMIZATION</li>
+                    <hr>
+                    <li>WORDPRESS INTERGRATION</li>
+                    <hr>
+                    <li>EMAIL SUPPORT</li>
+                    <hr>
+                </div>
+            </ul>
+        </div>
+
+    <div>
+        <div style="height: 250px;width:400px">
+            <ul class="list-style:none">
+                <li id="b1">Professional</li>
+                <li id="b2"><img src="./assests/$19.png"></li>
+                <li id="b3">Monthly Payment</li>
+                <li id="b4">Our Most Popular</li>
+                
+                <div id="b5">
+                    <li>5GB OF SPACE</li>
+                    <hr>
+                    <li>50GB OF BANDWIDTH</li>
+                    <hr>
+                    <li>12 WEBSITES</li>
+                    <hr>
+                    <li>ADVANCED CUSTOMIZATION</li>
+                    <hr>
+                    <li>WORDPRESS INTERGRATION</li>
+                    <hr>
+                    <li>EMAIL SUPPORT</li>
+                    <hr>
+                </div>
+            </ul>
+        </div>
+
+
+    </div>
+    <div style="height: 250px;width:400px;margin-top: 80px;">
+        <ul class="list-style:none">
+            <li id="c1">Enterprise</li>
+            <li id="c2"><img src="./assests/$70.png"></li>
+            <li id="c3">Monthly Payment</li>
+            <li id="c4"></li>
+            <div id="c5">
+                <li>UNLIMITED OF SPACE</li>
+                <hr>
+                <li>UNLIMITED OF BANDWIDTH</li>
+                <hr>
+                <li>100 WEBSITES</li>
+                <hr>
+                <li>ADVANCED CUSTOMIZATION</li>
+                <hr>
+                <li>WORDPRESS INTERGRATION</li>
+                <hr>
+                <li>24/7 CUSTOMER SUPPORT</li>
+                <hr>
+            </div>
         </ul>
     </div>
-    <!--page1-->
-    <div class="relative">
-        <img id="text" src="../assests/bg.png">
+        
+    
     </div>
-    <div>
-        <div class="absolute">
-            <img id="logo" src="Logo.png">
-            <h1 id="h1">MODULAR AXTURE TEMPLATE<br> FOR BEAUTIFUL TEMPLATES</h1>
-            <img id="img2" src="divider_white_u72.png">
-            <p id="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
-                temporibus molestiae <br>maiores odit assumenda
-                ad, quam magnam autem veniam libero nulla perspiciatis<br> necessitatibus excepturi ex facilis
-                suscipitiste,
-                dignissimos et!</p>
-            <a href="" class=hero-btn>DOWNLOAD</a>
-        </div>
-        <div class="absolute" style="margin-left: 800px;margin-top: 100px;">
-            <img src="../assests/Signup.png" style="height: 300px;width: 300px;">
-        </div>
-    </div>
-    <div style="background-color: #ffffff;display: flex; box-shadow:5px 5px  rgba(0,0,0,0.38);">
-        <div style="margin-top:-90px;" >
-            <h2 id="h2">Social Media</h2>
-            <p id="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Debitis
-                temporibus molestiae</p>
-        </div>
-        <div style="margin-top:-100px;position: absolute;margin-left:450px;">
-            <img id="img3" src="Social Media Icons.png">
-        </div>
-    </div>
-    <!--page2-->
-    <div class="pg2" style="display: flex;">
-        <div style="margin-top:100px;">
-            <div>
-                <button id="b1" style="background-color: orange;padding: 30px;">Tab 1</button>
-            </div>
-            <div>
-                <button id="b2" style="background-color:black;padding: 30px;">Tab 2</button>
-            </div>
-            <div>
-                <button id="b3" style="background-color:black;padding: 30px;">Tab 3</button>
-            </div>
-        </div>
-
-        <div style="margin-top:100px;">
-            <h1 id="h1">Tabs with soft transitioning effects</h1>
-            <p style="margin-top:30px;"
-            id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga magni iste eaque saepe,
-                eius<br>
-                magnam,ullam odit corrupti quasi tempora natus commodi in molestiae ex est vero impedit soluta!Lorem,
-                ipsum<br>
-                dolor sit amet consectetur adipisicing elit. Iure hic numquam quibusdam ullam totam quia
-                modi<br>
-                voluptas non ipsum officia, atque, molestias
-                <br>
-                <br>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure hic numquam quibusdam ullam
-                totam quia
-                modi
-                voluptas non <br>ipsum officia, atque, molestias corporis quos impedit autem maxime rem iste facere?
-            </p>
-
-            <a>DOWNLOAD</a>
-        </div>
-        <div><img src="image_right_u255.png" style="margin: top 300px;">
-        </div>
-    </div>
-    <br>
-    <br>
-    <!--page3-->
-    <div class="pg3" style="display: flex;">
-        <div>
-            <img style="padding: 70px;" src="image_left_sub_list_u260.png">
-        </div>
-        <div>
-            <h1>Sub list section</h1>
-            <img src="divider_orange_u7 copy 4.png" style="padding: 15px;">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Deserunt<br> excepturi laudantium consectetur,
-                expedita
-                aliquid ratione dolore sit odit,<br> nihil a itaque corrupti iusto ipsam in error.
-            </p>
-            <br>
-            <br>
-            <h2>Title</h2>
-            <div style="display: flex">
-                <img src=".png" style="height:20px;width: 20px;">
-                <p style="padding-left: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-                    reprehenderit. .</p>
-            </div>
-            <br>
-            <h2>Title</h2>
-            <div style="display: flex;">
-                <img src=".png" style="height: 20px;width: 20px;">
-                <p style="padding-left: 10px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, at
-                    vel.<br>
-                    Excepturi quidem, fuga sint
-                    laudantium odit repellendus asperiores modi <br>doloribus itaque? Minima, magnam maiores!
-                    Perspiciatis
-                    .</p>
-
-            </div>
-
-        </div>
-    </div>
-    <br>
-    <br>
-    <!--page4-->
-    <div class="pg4" style="display: flex;">
-        <div>
-            <h1>Standard picture section</h1>
-            <img src="divider_orange_u7 copy 4.png" style="padding-left:  60px;">
-            <p class="v1">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ipsam asperiores quis, distinctio
-                consequuntur
-                dignissimos modi ipsa<br> deserunt dolore rem, reiciendis unde quasi minima esse ducimus<br>est
-                aperiam,
-                officia
-                doloribus iure.
-                <br>
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum ea suscipit.
-            </p>
-        </div>
-        <div><img src="image_right_standard_u262.png" style="margin-left: 200px;"></div>
-    </div>
-    <!--page5-->
-    <div class="pg5">
-        <h1>WHY THIS IS AWESOME</h1>
-        <img src="divider_orange_u7 copy 4.png" style="margin-left: 600px;">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <div style="display: flex;">
-            <div style="padding: 40px;">
-                <img src=".png" style="background-image: url(../assests/icon_awesome_u175.png);">
-                <h2>Thoughtfull Design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Repellat aperiam iste omnis odit rem
-                    nulla
-                    deserunt possimus <br> in perspiciatis iusto similique
-                    et fugiat.</p>
-            </div>
-
-            <div style="padding: 40px;">
-                <img src=".png" style="background-image: url(../assests/icon_awesome_u175.png);">
-                <h2>Well Crafted</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Repellat aperiam iste omnis odit rem
-                    nulla
-                    deserunt possimus <br> in perspiciatis iusto similique
-                    et fugiat.</p>
-            </div>
-            <div style="padding: 40px;">
-                <img src=".png" style="background-image: url(../assests/icon_awesome_u175.png);">
-                <h2>Easy to Customize</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Repellat aperiam iste omnis odit rem
-                    nulla
-                    deserunt possimus <br> in perspiciatis iusto similique
-                    et fugiat.</p>
-            </div>
-        </div>
-
-    </div>
-    <!--page6-->
-    <div class="pg6">
-        <h1>PRICING OPTIONS</h1>
-        <img src="divider_orange_u7 copy 4.png" style="margin-left: 600px;height: fixed;">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <div style="display: flex;">
-            <div>
-                <img id="pg" src="Pricing Slot 1.png">
-            </div>
-            <div>
-                <img id="pg" src="Pricing Slot 2.png">
-            </div>
-            <div>
-                <img id="pg" src="Pricing Slot 3.png">
-            </div>
-        </div>
-    </div>
-    <!--page7-->
-    <div class="pg7">
-        <h1 style="padding-top: 50px;">WHAT OUR CUSTOMERS ARE SAYING</h1>
-        <img src="divider_orange_u7 copy 4.png" style="margin-left: 600px;height: fixed;">
-        <p id="pg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <div style="display: flex;">
-            <div style="margin-left:50px;">
-                <div style="background-image: url(../assests/u229\ \(1\).png);height: 147px;">
-                    <p>Lorem ipsum dolor sit amet
-                        consectetur
-                        adipisicing<br> elit. Dignissimos molestiae est optio, nihil<br>
-                        commodi minus a reprehenderit fugiat animi<br> magni exercitationem perferendis harum iste, nemo
-                        iusto<br>
-                        autem ipsum. Deleniti, molestias.</p>
-                </div>
-                <div style="display: flex;">
-                    <img id="img7" src="../assests/avatar_2_u231.png">
-                    <pre>
-                    <h1>Jeremy H.</h1>
-                    <p>Manager</p>
-                    </pre>
-                </div>
-
-            </div>
-
-            <div style="margin-left:50px;">
-                <div style="background-image: url(../assests/u229\ \(1\).png);height: 147px;">
-                    <p>Lorem ipsum dolor sit amet
-                        consectetur
-                        adipisicing<br> elit. Dignissimos molestiae est optio, nihil<br>
-                        commodi minus a reprehenderit fugiat animi<br> magni exercitationem perferendis harum iste, nemo
-                        iusto<br>
-                        autem ipsum. Deleniti, molestias.</p>
-                </div>
-                <div style="display: flex;">
-                    <img id="img7" src="../assests/avatar_2_u231.png">
-                    <pre>
-                    <h1>John S.</h1>
-                    <p>Freelancer</p>
-                    </pre>
-                </div>
-
-            </div>
-            <div style="margin-left:50px;">
-                <div style="background-image: url(../assests/u229\ \(1\).png);height: 147px;">
-                    <p>Lorem ipsum dolor sit amet
-                        consectetur
-                        adipisicing<br> elit. Dignissimos molestiae est optio, nihil<br>
-                        commodi minus a reprehenderit fugiat animi<br> magni exercitationem perferendis harum iste, nemo
-                        iusto<br>
-                        autem ipsum. Deleniti, molestias.</p>
-                </div>
-                <div style="display: flex;">
-                    <img id="img7" src="../assests/avatar_2_u231.png">
-                    <pre>
-                    <h1>Susan w.</h1>
-                    <p>Photography</p>
-                    </pre>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!--page8-->
-    <div class="pg8" style="background-image: url(../assests/u25_state0.png);">
-        <h1>STYLISH AXURE DESIGN</h1>
-        <img src="../assests/divider_white_u72.png" style="margin-left: 600px;height: fixed;">
-        <p>Use the sections you need. Remove the ones you don't.Create gorgeous prototypes you want.</p>
-        <a href="" class=hero-btn style="margin-left: 600px;">DOWNLOAD </a>
-    </div>
-    <!--page9-->
-    <div class="pg9">
-        <h1 style="">CONTACT US</h1>
-        <img src="../assests/divider_orange_u7 copy 4.png" style="margin-left: 600px;height: fixed;">
-        <p id="p9">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <div style="display: flex;padding-left: 50px;">
-            <div>
-                <p>Name</p>
-                <hr>
-                <p>Email</p>
-                <hr>
-                <p>Subjects</p>
-                <hr>
-            </div>
-            <div style="padding-left:500px;">
-                <p>Message</p>
-                <hr style="margin-top:110px;">
-            </div>
-        </div>
-        <a href="" class=hero-btn
-            style="margin-left: 600px;background-color: orangered;padding: 5px;margin-top: 75px;">Send message </a>
-
-    </div>
-    <!--footer-->
-    <div class="footer" style="background-color: black;">
-        <img src="../assests/                             .png">
-        <img id="imgf" src="../assests/© 2015 Axure Themes.png">
-
-    </div>
-
-
 
 
 
