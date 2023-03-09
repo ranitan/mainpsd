@@ -220,16 +220,17 @@ hr {
   color: #212121;
   font-weight: 700;
   font-family: "Open Sans"; 
-  padding: 60px;
+  padding-left: 20px;
 }
 
 .pg4 p {
+
   font-size: 14px;
   line-height: 20px;
   color: #86878b;
   font-weight: 400;
   font-family: "Open Sans";
-  padding: 50px;
+  padding-left: 20px;
 
 }
 
@@ -256,7 +257,7 @@ hr {
   font-weight: 700;
   font-family: "Open Sans";
   text-align: center;
-  margin-left: 15px;
+  margin-left: -50px;
 }
 
 .pg5 p {
