@@ -13,12 +13,13 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <style>
-        #s {
+        .list-group-flush {
             border-style: groove;
+            padding: 5px;
 
         }
 
-        #l1 {
+        .list-group-flush #l1 {
             font-size: 20px;
             color: #333333;
             font-weight: 700;
@@ -27,17 +28,18 @@
             list-style-type: none;
         }
 
-        #l3 {
+        .list-group-flush #l3 {
             font-size: 15px;
             color: #ffffff;
             font-weight: 600;
             font-family: "Open Sans";
             text-align: center;
             background-color: orange;
-            padding: 10px;
+            width: 100%;
+            
         }
 
-        #l2 {
+        .list-group-flush #l2 {
             font-size: 14px;
             color: #bdbdbd;
             font-weight: 400;
@@ -50,12 +52,16 @@
 
         }
 
-        hr {
+        .list-group-flush hr {
             filter: drop-shadow(0px 1px 0px rgba(0, 0, 1, 0.16));
             padding-left: 25px;
         }
 
-        #a1 {
+        .list-group-flush p {
+            color: orange;
+        }
+
+        /*#a1 {
             font-size: 20px;
             line-height: 24px;
             color: #ffffff;
@@ -220,14 +226,13 @@
             font-family: "Open Sans";
             text-align: center;
             list-style: none;
-            padding: -5px;*/
+            padding: -5px;
             color: #86878b;
             text-align: center; font-size: 14px; font-family: "Open Sans";  list-style: none;
         }
         .pg6{
             background-color: #86878b;
-        }
-        
+        }*/
     </style>
 
 </head>
@@ -235,9 +240,9 @@
 <body>
 
 
-    <!--<div class="absolutes" style="height: 350px;width: 350px;width: 18rem;margin-left: 900px;">
-        <ul class="list-group list-group-flush">
-            <li id="l1">Try Your Free Trail Today</li>
+    <div class="absolutes" style="height: 350px;width: 350px;width: 18rem;margin-left: 900px;">
+        <ul class="list-group-flush">
+            <li id="l1">Try Your <p>Free</p> Trail Today</li>
             <li id="l2">Name</li>
             <hr>
             <li id="l2">Email</li>
@@ -246,9 +251,9 @@
             <hr>
             <li id="l3">Get Started</li>
         </ul>
-    </div>-->
+    </div>
 
-    <div class="pg6" style="display: flex;padding: 3px;margin-left: 100px;">
+    <!--<div class="pg6" style="display: flex;padding: 3px;margin-left: 100px;">
         <div style="height: 250px;width:400px;margin-top: 80px;">
             <ul class="list-style:none">
                 <li id="a1">Basic</li>
@@ -323,7 +328,7 @@
     </div>
         
     
-    </div>
+    </div>-->
 
 
 
