@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mainpsd</title>
-    <link rel="stylesheet" href="external.css">
+    <link rel="stylesheet" href="external.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -16,7 +16,6 @@
         .list-group-flush {
             border-style: groove;
             padding: 5px;
-
         }
 
         .list-group-flush #l1 {
@@ -36,7 +35,6 @@
             text-align: center;
             background-color: orange;
             width: 100%;
-            
         }
 
         .list-group-flush #l2 {
@@ -49,7 +47,6 @@
             list-style-type: none;
             margin-bottom: 5px;
             margin-top: 20px;
-
         }
 
         .list-group-flush hr {
@@ -233,22 +230,62 @@
         .pg6{
             background-color: #86878b;
         }*/
-    </style>
+        #mail::placeholder {
+            position: absolute;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #bdbdbd;
+            font-weight: 400;
+            font-family: "Open Sans";
+        }
 
+        #sub::placeholder {
+            position: absolute;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #bdbdbd;
+            font-weight: 400;
+            font-family: "Open Sans";
+        }
+
+        #name::placeholder {
+            position: absolute;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #bdbdbd;
+            font-weight: 400;
+            font-family: "Open Sans";
+        }
+
+        input {
+            outline: none;
+            border: 0px;
+        }
+        #msg::placeholder{
+            position: absolute;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #bdbdbd;
+            font-weight: 400;
+            font-family: "Open Sans";
+        }
+    </style>
 </head>
 
 <body>
-
-
-    <div class="absolutes" style="height: 350px;width: 350px;width: 18rem;margin-left: 900px;">
+    <div class="absolutes" style="height: 350px; width: 350px; width: 18rem; margin-left: 900px">
         <ul class="list-group-flush">
-            <li id="l1">Try Your <p>Free</p> Trail Today</li>
+            <li id="l1">
+                Try Your
+                <p>Free</p>
+                Trail Today
+            </li>
             <li id="l2">Name</li>
-            <hr>
+            <hr />
             <li id="l2">Email</li>
-            <hr>
+            <hr />
             <li id="l2">Password</li>
-            <hr>
+            <hr />
             <li id="l3">Get Started</li>
         </ul>
     </div>
@@ -329,38 +366,30 @@
         
     
     </div>-->
-    
-<div>
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputName1" class="form-label">Name</label>
-          <input type="name" class="form-control" id="exampleInputName1">
-       </div>
-        
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-       
-          </div>
-        <div class="mb-3">
-            <label for="exampleInputsubjects1" class="form-label">Subject</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-        </form>
-</div>
-        <div>
-        <div class="mb-3">
-            <label for="exampleInputmessage1" class="form-label">Message</label>
-            <input type="message" class="form-control" id="exampleInputPassword1">
-          </div>
+
+    <div style="display: flex;">
+        <div style="margin-left:200px;">
+        <form>
+            <fieldset>
+                <input style="width: 400px; height: 60px; outline: none" type="text" id="name"
+                    placeholder="Name" /><br />
+                <hr style="width: 400px" />
+                <input style="width: 400px; height: 60px" type="email" id="mail" placeholder="Email" /><br />
+                <hr style="width: 400px;filter: drop-shadow(0px 1px 0px rgba(0,0,1,0.16));" />
+                <input style="width: 400px; height: 60px" type="text" id="pwd" placeholder="Password" />
+                <hr style="width: 400px; border-top: 2px solid; " />
+            </fieldset>
         </form>
         </div>
-
-
-
-
-
-
+        <div style="margin-left: 100px;">
+        <form>
+            <fieldset>
+                <input style="width: 400px; height: 230px; outline: none" type="text" id="msg" placeholder="Message">
+                <hr style="width: 400px; border-top: 2px solid; ">
+            </fieldset>
+                </form>
+        </div>
+    </div>
 </body>
 
 </html>

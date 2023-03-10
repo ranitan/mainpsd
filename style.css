@@ -64,10 +64,7 @@
    top: 170px;
    background-color: white;
  }
- .list-group-flush #l1{
-  background-color: #dbd8d8;
-  
- }
+
  .list-group-flush #pre1{
   padding-right:15px;
   padding-top:-5px;
@@ -105,23 +102,6 @@
 
  }
 
- /*.list-group-flush #l2 {
-   font-size: 14px;
-   color: #bdbdbd;
-   font-weight: 400;
-   font-family: "Open Sans";
-   text-align: center;
-   margin-right: 200px;
-   list-style-type: none;
-   margin-bottom: 5px;
-   margin-top: 20px;
-
- }
-
- .list-group-flush hr {
-   filter: drop-shadow(0px 1px 0px rgba(0, 0, 1, 0.16));
-   padding-left: 25px;
- } */
 
  .list-group-flush p {
    color: orange;
@@ -681,13 +661,47 @@
    font-family: "Open Sans";
  }
 
- .pg9 hr {
-   filter: drop-shadow(0px 1px 0px rgba(0, 0, 1, 0.16));
-   width: 500px;
- }
- .pg9 #exampleInputMessage1{
-  margin-top:180px;
- }
+ #mail::placeholder {
+  position: absolute;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+#sub::placeholder {
+  position: absolute;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+#name::placeholder {
+  position: absolute;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+input {
+  outline: none;
+  border: 0px;
+}
+#msg::placeholder{
+  position: absolute;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-family: "Open Sans";
+} 
+ 
+
  /*footer*/
  .footer img {
    font-size: 24px;
