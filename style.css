@@ -133,7 +133,15 @@
    color: #86878b;
    font-weight: 400;
    font-family: "Open Sans";
-   
+
+ }
+
+ p #p2 {
+   font-size: 14px;
+   line-height: 20px;
+   color: #86878b;
+   font-weight: 400;
+   font-family: "Open Sans";
  }
 
  .absolute h2 #p2 {
