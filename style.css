@@ -46,6 +46,12 @@
    top: 380px;
    margin-left: 68px;
    color: #fff;
+   opacity: 0.800;
+   font-size: 16px;
+   line-height: 23px;
+   color: #ffffff;
+   font-weight: 300;
+   font-family: "Raleway";
  }
 
  .absolute a {
@@ -65,9 +71,9 @@
    background-color: white;
  }
 
- .list-group-flush #pre1{
-  padding-right:15px;
-  padding-top:-5px;
+ .list-group-flush #pre1 {
+   padding-right: 15px;
+   padding-top: -5px;
  }
 
  .list-group-flush #pre1 {
@@ -87,10 +93,9 @@
    font-family: "Open Sans";
    position: absolute;
    margin-top: -676px;
-
  }
 
-  .list-group-flush button {
+ .list-group-flush button {
    font-size: 15px;
    color: #ffffff;
    font-weight: 600;
@@ -128,6 +133,7 @@
    color: #86878b;
    font-weight: 400;
    font-family: "Open Sans";
+   
  }
 
  .absolute h2 #p2 {
@@ -189,8 +195,9 @@
    margin-top: 50px;
    float: right;
  }
- a{
-  cursor: pointer;
+
+ a {
+   cursor: pointer;
  }
 
  /*page2*/
@@ -282,16 +289,17 @@
    font-weight: 400;
    font-family: "Open Sans";
  }
+
  .pg3 p {
 
-  font-size: 14px;
-  line-height: 20px;
-  color: #86878b;
-  font-weight: 400;
-  font-family: "Open Sans";
-  padding-left: 20px;
+   font-size: 14px;
+   line-height: 20px;
+   color: #86878b;
+   font-weight: 400;
+   font-family: "Open Sans";
+   padding-left: 20px;
 
-}
+ }
 
  /*page4*/
  .pg4 {
@@ -672,45 +680,46 @@
  }
 
  #mail::placeholder {
-  position: absolute;
-  margin-top: 30px;
-  font-size: 14px;
-  color: #bdbdbd;
-  font-weight: 400;
-  font-family: "Open Sans";
-}
+   position: absolute;
+   margin-top: 30px;
+   font-size: 14px;
+   color: #bdbdbd;
+   font-weight: 400;
+   font-family: "Open Sans";
+ }
 
-#sub::placeholder {
-  position: absolute;
-  margin-top: 30px;
-  font-size: 14px;
-  color: #bdbdbd;
-  font-weight: 400;
-  font-family: "Open Sans";
-}
+ #sub::placeholder {
+   position: absolute;
+   margin-top: 30px;
+   font-size: 14px;
+   color: #bdbdbd;
+   font-weight: 400;
+   font-family: "Open Sans";
+ }
 
-#name::placeholder {
-  position: absolute;
-  margin-top: 30px;
-  font-size: 14px;
-  color: #bdbdbd;
-  font-weight: 400;
-  font-family: "Open Sans";
-}
+ #name::placeholder {
+   position: absolute;
+   margin-top: 30px;
+   font-size: 14px;
+   color: #bdbdbd;
+   font-weight: 400;
+   font-family: "Open Sans";
+ }
 
-input {
-  outline: none;
-  border: 0px;
-}
-#msg::placeholder{
-  position: absolute;
-  margin-top: 30px;
-  font-size: 14px;
-  color: #bdbdbd;
-  font-weight: 400;
-  font-family: "Open Sans";
-} 
- 
+ input {
+   outline: none;
+   border: 0px;
+ }
+
+ #msg::placeholder {
+   position: absolute;
+   margin-top: 30px;
+   font-size: 14px;
+   color: #bdbdbd;
+   font-weight: 400;
+   font-family: "Open Sans";
+ }
+
 
  /*footer*/
  .footer img {
@@ -743,6 +752,7 @@ input {
    padding: 15px;
    cursor: pointer;
  }
- .footer a{
-  cursor: pointer;
+
+ .footer a {
+   cursor: pointer;
  }
