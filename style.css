@@ -282,6 +282,16 @@
    font-weight: 400;
    font-family: "Open Sans";
  }
+ .pg3 p {
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  padding-left: 20px;
+
+}
 
  /*page4*/
  .pg4 {
